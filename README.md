@@ -3,4 +3,4 @@ Analyzing the files from a selected repository.
 
 I have selected the repository:- https://github.com/Mrinank-Bhowmick/python-beginner-projects/tree/main/projects/Alarm%20Clock
 
-I am performing this analysis using "pylint".
+I am performing this analysis using a static analysis tool called "pylint".
