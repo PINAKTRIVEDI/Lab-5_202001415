@@ -20,30 +20,37 @@ Running pylint on entire folder:-
 Some of the errors are as shown below:-
 
 => Import Error
+
 It occurs when the import statement of a module fails. It typically indicates that
 the module you are trying to import cannot be found or there is an issue with the
 module's code that is preventing it from being imported correctly.
+
 => Undefined variable
-It occurs when you reference a variable that has not been defined in the current
-scope.
+
+It occurs when you reference a variable that has not been defined in the current scope.
+
 => Redefined builtin
-It is a warning error that is raised when you define a variable or function with the
-same name as a built-in Python function or keyword. This can lead to unexpected
+
+It is a warning error that is raised when you define a variable or function with the same name as a built-in Python function or keyword. This can lead to unexpected
 behavior and bugs in your code.
 
 => Bad indentation
+
 This warning is raised when there are inconsistent indentation levels in your
 code. It could occur if you mix tabs and spaces, or if you use the wrong number
 of spaces for indentation.
 
 => missing module
+
 This warning is raised when a module is missing a docstring. A docstring is a
 string literal that appears as the first statement in a module, function, class, or
 method definition.
 
 => Invalid name
+
 This warning is raised when a variable or function name does not conform to the
 naming convention for Python code.
+
 => Trailing white space
 
 This warning is raised when there is trailing whitespace at the end of a line.
