@@ -8,57 +8,14 @@ The errors for "alarm_clock.py" file are as shown below:-
 
 ![image](https://user-images.githubusercontent.com/123732408/227476682-30272a66-f141-448d-9bfc-106d32287b88.png)
 
-Content:-
-
-Windows PowerShell
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Try the new cross-platform PowerShell https://aka.ms/pscore6
-
-PS C:\Users\student\Downloads\python-beginner-projects-main\projects\Alarm Clock> python -m pylint alarm_clock.py
-************* Module alarm_clock
-alarm_clock.py:39:0: C0325: Unnecessary parens after '=' keyword (superfluous-parens)
-alarm_clock.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-alarm_clock.py:5:0: W0622: Redefining built-in 'enumerate' (redefined-builtin)
-alarm_clock.py:1:0: W0401: Wildcard import tkinter (wildcard-import)
-alarm_clock.py:5:0: W0401: Wildcard import threading (wildcard-import)
-alarm_clock.py:12:0: C0116: Missing function or method docstring (missing-function-docstring)
-alarm_clock.py:12:0: C0103: Function name "Threading" doesn't conform to snake_case naming style (invalid-name)
-alarm_clock.py:13:4: C0103: Variable name "t1" doesn't conform to snake_case naming style (invalid-name)
-alarm_clock.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
-alarm_clock.py:217:13: C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
-alarm_clock.py:218:0: E1111: Assigning result of a function call, where the function has no return (assignment-from-no-return)
-alarm_clock.py:218:0: C0103: Constant name "button" doesn't conform to UPPER_CASE naming style (invalid-name)
-alarm_clock.py:1:0: W0614: Unused import(s) enum, sys, types, TclError, re, wantobjects, TkVersion, TclVersion, READABLE, WRITABLE, EXCEPTION, EventType, Event, NoDefaultRoot, Variable, IntVar, DoubleVar, BooleanVar, mainloop, getint, getdouble, getboolean, Misc, CallWrapper, XView, YView, Wm, Tcl, Pack, Place, Grid, BaseWidget, Widget, Toplevel, Canvas, Checkbutton, Entry, Listbox, Menu, Menubutton, Message, Radiobutton, Scale, Scrollbar, Text, Image, PhotoImage, BitmapImage, image_names, image_types, Spinbox, LabelFrame, PanedWindow, NO, FALSE, OFF, YES, TRUE, ON, N, S, W, E, NW, SW, NE, SE, NS, EW, NSEW, CENTER, NONE, X, Y, BOTH, TOP, RIGHT, BOTTOM, RAISED, SUNKEN, FLAT, RIDGE, GROOVE, SOLID, HORIZONTAL, VERTICAL, NUMERIC, CHAR, WORD, BASELINE, INSIDE, OUTSIDE, SEL, SEL_FIRST, SEL_LAST, END, INSERT, CURRENT, ANCHOR, ALL, NORMAL, DISABLED, ACTIVE, HIDDEN, CASCADE, CHECKBUTTON, COMMAND, RADIOBUTTON, SEPARATOR, SINGLE, BROWSE, MULTIPLE, EXTENDED, DOTBOX, UNDERLINE, PIESLICE, CHORD, ARC, FIRST, LAST, BUTT, PROJECTING, ROUND, BEVEL, MITER, MOVETO, SCROLL, UNITS and PAGES from wildcard import of tkinter (unused-wildcard-import)
-alarm_clock.py:5:0: W0614: Unused import(s) functools, get_ident, get_native_id, ThreadError, TIMEOUT_MAX, setprofile, getprofile, settrace, gettrace, Lock, RLock, Condition, Semaphore, BoundedSemaphore, Barrier, BrokenBarrierError, ExceptHookArgs, excepthook, Timer, current_thread, currentThread, active_count, activeCount, enumerate, main_thread, WeakSet, namedtuple, stack_size, local and lock from wildcard import of threading (unused-wildcard-import)
-
-------------------------------------------------------------------
-Your code has been rated at 5.71/10 (previous run: 5.71/10, +0.00)
-
-
 The errors for "clock.py" file are as shown below:-
 
 ![image](https://user-images.githubusercontent.com/123732408/227477390-5a96223d-7687-4891-8fba-1ba38485e0f9.png)
 
-CONTENT:-
-************* Module clock
-clock.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-clock.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
-
------------------------------------
-Your code has been rated at 8.46/10
-
 Running pylint on entire folder:-
 
-************* Module ALARM
-ALARM:1:0: F0001: No module named ALARM (fatal)
-************* Module CLOCK
-CLOCK.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-CLOCK.py:1:0: C0103: Module name "CLOCK" doesn't conform to snake_case naming style (invalid-name)
-CLOCK.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+![image](https://user-images.githubusercontent.com/123732408/227480883-d9ba3469-2ad0-4500-b07b-d43c6c2e2497.png)
 
-------------------------------------------------------------------
-Your code has been rated at 0.00/10 (previous run: 8.46/10, -8.46)
 
 Some of the errors are as shown below:-
 
