@@ -3,6 +3,9 @@ Analyzing the files from a selected repository.
 
 I have selected the repository:- https://github.com/Mrinank-Bhowmick/python-beginner-projects/tree/main/projects/Alarm%20Clock
 
+I am performing this analysis using "pylint".
+
+Pylint is a tool that checks Python code for errors and warnings based on a set of predefined rules. The error and warning messages produced by pylint help to improve the quality and maintainability of the code.
 
 The errors for "alarm_clock.py" file are as shown below:-
 
@@ -56,22 +59,47 @@ naming convention for Python code.
 This warning is raised when there is trailing whitespace at the end of a line.
 (In pylint errors are define with error number : )
 
-C0304 : Missing final newline
+Error analysis using error codes:-
 
-This warning is raised when there is no final newline at the end of a file. This can
-cause issues with some text editors and tools.
+C0325: Unnecessary parens after '=' keyword (superfluous-parens)
 
-C0116 : Missing function docstring
+This error message indicates that there are unnecessary parentheses after the assignment operator (=). To fix this, simply remove the parentheses around the assignment.
 
-Missing function or method docstring used when a function or method has no
-docstring. Some special methods like __init__, protected, private functions,
-setters and deleters do not require a docstring (learn more from testscases).
+C0114: Missing module docstring (missing-module-docstring)
 
-C0415 : Import outside top level
+This warning message indicates that the module doesn't have a docstring. A docstring is a description of what the module does, and it is recommended to include it in all modules. To fix this, add a docstring to the module at the beginning of the file.
 
-Used when an import statement is used anywhere other than the module
+W0622: Redefining built-in 'enumerate' (redefined-builtin)
 
-toplevel.Move this import to the top of the file  
+This warning message indicates that the built-in function 'enumerate' has been redefined. It is recommended to avoid redefining built-in functions to prevent unintended consequences. To fix this, choose a different name for the function.
+
+W0401: Wildcard import tkinter (wildcard-import)
+
+This warning message indicates that the module is importing all the names from the 'tkinter' module using a wildcard ('*'). This can make the code less clear and can cause naming conflicts. To fix this, import only the names that are needed from the 'tkinter' module explicitly.
+
+W0401: Wildcard import threading (wildcard-import)
+
+This warning message indicates that the module is importing all the names from the 'threading' module using a wildcard ('*'). This can make the code less clear and can cause naming conflicts. To fix this, import only the names that are needed from the 'threading' module explicitly.
+
+C0116: Missing function or method docstring (missing-function-docstring)
+
+This warning message indicates that a function or method doesn't have a docstring. A docstring is a description of what the function or method does, and it is recommended to include it in all functions and methods. To fix this, add a docstring to the function or method.
+
+C0103: Function name "Threading" doesn't conform to snake_case naming style (invalid-name)
+
+This error message indicates that the name of the function doesn't follow the snake_case naming style. Function names should be in lowercase letters with underscores separating words. To fix this, rename the function to follow the naming convention.
+
+C0103: Variable name "t1" doesn't conform to snake_case naming style (invalid-name)
+
+This error message indicates that the name of the variable doesn't follow the snake_case naming style. Variable names should be in lowercase letters with underscores separating words. To fix this, rename the variable to follow the naming convention.
+
+C3001: Lambda expression assigned to a variable. Define a function using the "def" keyword instead. (unnecessary-lambda-assignment)
+
+This error message indicates that a lambda expression is assigned to a variable. It is recommended to define a function using the 'def' keyword instead of using a lambda expression. To fix this, define a function using the 'def' keyword.
+
+E1111: Assigning result of a function call, where the function has no return (assignment-from-no-return)
+
+This error message indicates that the result of a function call is being assigned to a variable, but the function doesn't return anything. It is recommended to check if the function returns anything before assigning the result to a variable. To fix this, modify the code to 
 
 Analysis of some of the errors:
 
